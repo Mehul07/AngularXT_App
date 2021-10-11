@@ -1,0 +1,14 @@
+<div class="comp-two-wrapper">
+    <div class="input-timer">
+        <label for="timelimit">Enter Timer Limit</label>
+        <input type="number" min="0" id="timelimit" [(ngModel)]="currentTimer"/>
+    </div>
+    <div class="button-wrap">
+        <button class="btn btn-success" type="button" (click)="startTimer()">Start/Pause</button>
+        <button class="btn btn-danger" type="button" (click)="resetEvent()">Reset</button>
+    </div>
+
+    <ng-container *ngFor="let times of pauseTimes">
+        <div>Paused at... {{times}}</div>
+    </ng-container>
+</div>

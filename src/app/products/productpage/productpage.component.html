@@ -1,0 +1,18 @@
+<div class="products-holder">
+    <div class="filter">
+        <span class="filter-view">
+            <span title="Grid View" (click)="changeViewType('grid')"><i class="fa-solid fa-border-all"></i></span>
+            <span>|</span>
+            <span title="List View" (click)="changeViewType('list')"><i class="fa-solid fa-bars"></i></span>
+        </span>
+        <select>
+            <option value="Low">Price: Low to High</option>
+            <option value="High">Price: High to Low</option>
+        </select>
+    </div>
+    <div class="products-list">
+        <div *ngFor="let product of productsArr" [ngClass]="setClass()">
+            {{product}}
+        </div>
+    </div>
+</div>

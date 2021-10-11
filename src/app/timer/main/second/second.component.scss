@@ -1,0 +1,25 @@
+.comp-two-wrapper {
+    border: 2px solid black;
+    margin: 10px;
+    height: 200px;
+}
+
+.input-timer {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+
+    label {
+        margin-right: 5px;
+    }
+}
+
+.button-wrap {
+    text-align: center;
+    margin: 10px;
+
+    button {
+        margin: 5px;
+        border-radius: 5px;
+    }
+}

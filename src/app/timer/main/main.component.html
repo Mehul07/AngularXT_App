@@ -1,0 +1,21 @@
+<div class="main-comp">
+    <div class="row">
+        <div class="col-md-6">
+            <app-first [timerToCounter]="startTime"></app-first>
+        </div>
+        <div class="col-md-6">
+            <app-second (timer)="getTimer($event)" (pauseTimeEvent)="getEvent($event)"
+                (eventCounts)="getEventCounts($event)"></app-second>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <app-third [events]="eventArr"></app-third>
+        </div>
+        <div class="col-md-6">
+            <app-fourth [startCount]="eventCounts.startCount" [pauseCount]="eventCounts.pauseCount"
+                [resetCount]="eventCounts.resetCount">
+            </app-fourth>
+        </div>
+    </div>
+</div>

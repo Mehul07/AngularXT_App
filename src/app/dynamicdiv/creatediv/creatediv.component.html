@@ -1,0 +1,6 @@
+<ng-container *ngFor="let elm of divContainer; let i = index">
+    <div>
+    {{ elm }}
+    <button (click)="fireAlert(i+1)">Fire Alert</button>
+    </div>
+</ng-container>

@@ -1,0 +1,29 @@
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+  
+.card-holder-grid {
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 100px;
+    background-color: rgb(184, 184, 219);
+}
+
+.card-holder-list-view {
+    flex: 1 0 45%;
+    margin: 5px;
+    height: 100px;
+    background-color: rgb(184, 184, 219);
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-end;
+
+    .filter-view {
+        background-color: orange;
+        margin-right: 20px;
+    }
+}

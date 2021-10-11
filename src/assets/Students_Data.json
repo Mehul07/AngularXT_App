@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "abcd",
+        "Class": "3",
+        "Section": "0",
+        "Sub1": 20,
+        "Sub2": 30,
+        "Sub3": 39
+    },
+    {
+        "Name": "dwd",
+        "Class": "3",
+        "Section": "0",
+        "Sub1": 45,
+        "Sub2": 30,
+        "Sub3": 33
+    },
+    {
+        "Name": "wewe",
+        "Class": "3",
+        "Section": "0",
+        "Sub1": 20,
+        "Sub2": 42,
+        "Sub3": 36
+    },
+    {
+        "Name": "aaaa",
+        "Class": "3",
+        "Section": "0",
+        "Sub1": 24,
+        "Sub2": 30,
+        "Sub3": 37
+    },
+    {
+        "Name": "aaaa",
+        "Class": "5",
+        "Section": "1",
+        "Sub1": 34,
+        "Sub2": 27,
+        "Sub3": 19
+    }
+]
